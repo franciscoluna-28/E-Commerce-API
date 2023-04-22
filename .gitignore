@@ -1,0 +1,23 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Prisma
+/prisma/.env
+/prisma/migrations/*
+!prisma/migrations/README.md
+
+# MySQL
+*.sql
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# Other
+.DS_Store
+Thumbs.db
