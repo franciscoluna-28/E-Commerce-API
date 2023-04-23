@@ -9,3 +9,7 @@ export class GetAllProducts {
     return await this.getAllProductsRepository.getAllProducts()
   }
 }
+
+console.log("Test1")
+// Gonna make authentication and delete products this week
+// As well as implementing a better UI
