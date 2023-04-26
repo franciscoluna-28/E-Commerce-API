@@ -3,6 +3,7 @@ import productRoutes from "./application/routes/Product";
 
 const app = express();
 
+// Product routing
 app.use("/products", productRoutes);
 
 app.listen(3000, () => {
